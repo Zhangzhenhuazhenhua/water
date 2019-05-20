@@ -1,0 +1,162 @@
+@import "base.css";
+header{
+    height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    line-height: 0.88rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+header li .iconfont{
+    color: #4ebbfe;
+    font-size: 0.6rem;
+}
+header li i{
+    width: 0.66rem;
+    height: 0.88rem;
+    display: block;
+}
+.bag{
+    width: 100%;
+    height: 6.05rem;
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+.bag a{
+    display: block;
+    width: 3rem;
+    height: 3.62rem;
+    background: white;
+}
+.info{
+    height:auto;
+    margin-top: 0.15rem;
+    background: white;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.info h3{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.info p{
+    font-size: 0.22rem;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    height: 0.66rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.information{
+    margin: 0.18rem 0;
+}
+.information > span{
+    margin-right: 0.2rem;
+}
+.information > span:first-child{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #fbb548;
+}
+.information > span:nth-child(2){
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #41b2fc;
+    width: 78px;
+    height: 36px;
+    background:rgba(65,178,252,0.1);
+    border-radius: 18px;
+    margin-right: 0.3rem;
+    padding: 0.08rem 0.2rem;
+}
+.information > span:nth-child(3){
+    font-size: 0.2rem;
+    font-weight: normal;
+    letter-spacing: 0.01rem;
+    color: #36d681;
+    width: 113px;
+    height: 36px;
+    background: rgba(54,214,252,0.1);
+    border-radius: 18px;
+    padding: 0.08rem 0.2rem;
+}
+.information .total{
+    float: right;
+}
+.information .total-l{
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    margin: 0 0.1rem;
+}
+.information .total-r{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #36a8fe;
+}
+.information .total::before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0rem 0.02rem 0.05rem 0rem
+    rgba(54, 214, 129, 0.43);
+    border-radius: 50%;
+    display: block;
+}
+.discount{
+    margin: 0 0.2rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+    border-top: 0.01rem solid #d8dfe3;
+
+}
+.discount > a >img{
+    width:0.54rem;
+    height: 0.4rem;
+    display: inline-block;
+}
+.discount > a .art{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ff844e;
+    margin: 0 0.14rem 0 0.13rem;
+}
+.discount > a .pic{
+    padding: 0.08rem 0.22rem;
+    font-size: 0.24rem;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #fbfeff;
+    background-color: #ff933b;
+    background-image: linear-gradient(270deg,
+    #ffca3b 0%,
+    #ff933b 100%);
+    border-radius: 0.22rem;
+}
+
+
+
+
+
