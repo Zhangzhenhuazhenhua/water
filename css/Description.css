@@ -61,6 +61,7 @@ header li i{
 }
 .information{
     margin: 0.18rem 0;
+    position: relative;
 }
 .information > span{
     margin-right: 0.2rem;
@@ -125,23 +126,27 @@ header li i{
     rgba(54, 214, 129, 0.43);
     border-radius: 50%;
     display: block;
+    position: absolute;
+    bottom: 0.2rem;
 }
 .discount{
     margin: 0 0.2rem;
-    border-bottom: 0.01rem solid #d8dfe3;
-    border-top: 0.01rem solid #d8dfe3;
-
+    border-bottom: 0.01rem solid #f0f5f7;
+    border-top: 0.01rem solid #f0f5f7;
 }
 .discount > a >img{
-    width:0.54rem;
-    height: 0.4rem;
-    display: inline-block;
+    width:0.57rem;
+    height: 0.41rem;
+    float: left;
+    margin-top: 0.2rem;
+
 }
 .discount > a .art{
     font-size: 0.24rem;
     letter-spacing: 0.01rem;
     color: #ff844e;
     margin: 0 0.14rem 0 0.13rem;
+
 }
 .discount > a .pic{
     padding: 0.08rem 0.22rem;
@@ -155,7 +160,15 @@ header li i{
     #ff933b 100%);
     border-radius: 0.22rem;
 }
+.factor{
 
+}
+.factor span{
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.014rem;
+    color: #41b2fc;
+}
 
 
 
